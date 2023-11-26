@@ -25,11 +25,6 @@ body {
     margin: 0.8em;
 }
 
-.remark-slide-content li
-{
-    margin: 0.4em 0;
-}
-
 .remark-slide-content h1 {
     font-weight: bold;
     font-size: 2.25em;
@@ -50,8 +45,8 @@ body {
 }
 
 .remark-slide-number {
-    font-size: 0.8em;
-    bottom: 1.0em;
+    font-size: 0.5em;
+    bottom: 2em;
 }
 
 
@@ -60,10 +55,6 @@ body {
 .footnote:before {
     content: "\2015\2015\2015";
     display: block;
-}
-
-.underline {
-    text-decoration: underline;
 }
 
 a {
@@ -100,30 +91,6 @@ strong {
     color: #d11a01;
     font-style: normal;
     font-weight: normal;
-}
-j
-.HUGE {
-    font-size: 4.0em;
-}
-
-.Huge {
-    font-size: 3.0em;
-}
-
-.huge {
-    font-size: 2.5em;
-}
-
-.LARGE {
-    font-size: 2.2em;
-}
-
-.Large {
-    font-size: 2.0em;
-}
-
-.large {
-    font-size: 1.8em;
 }
 
 
@@ -437,9 +404,9 @@ td {
 
 .title-slide:after {
     content: '';
-    background: url("../figures/GRAPPA_RGB_medium(6cmwith).jpg") no-repeat;
+    background: url("../assets/logo_ulg.png") no-repeat;
     background-size: 100% 100%;
-    width: 220px;
+    width: 150px;
     height: 73px;
     position: absolute;
     bottom: 2em;
@@ -467,12 +434,4 @@ td {
     background-color: red;
     color: white;
     border-top: solid 0px;
-}
-
-.block {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.block-cyan {
-  background-color: rgb(200.1, 300.1, 300.1);
 }

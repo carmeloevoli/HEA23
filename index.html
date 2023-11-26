@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Turboloading dark matter searches with differentiable programming</title>
+    <title>Bayesian posterior estimation with classification networks.</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="./assets/katex.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/grid.css">
-    <link rel="stylesheet" href="./assets/animate.min.css">
     <style type="text/css">
       /* Slideshow styles */
     </style>
   </head>
   <body>
+    <textarea id="source">
 
-<!-- *********************** Start of slide content ********************** -->
-<textarea id="source">
+class: left, middle
 
-class: title-slide
+# Bayesian posterior estimation with classification networks
 
-# Turboloading dark matter searches with differentiable programming
 
-.smaller.center[Christoph Weniger (GRAPPA/IoP/UvA)]
+.right[
+Christoph Weniger, GRAPPA
 
-.center[with Adam Coogan and Kosio Karchev (University of Amsterdam)]
+University of Amsterdam
 
-.center[arxiv:2010.07032]
+28 September 2020
+]
+.left[BSc Course Machine learning for Physics and Astronomy, 2020]
 
-.right[1 December 2020
 
-RTG colloquium - RWTH Aachen]
 
-<br>
-<br>
-
-<!-- Physics motivation strong lensing -->
-
----
+    </textarea>
+    <script src="./assets/remark-latest.min.js"></script>
+    <script src="./assets/katex.min.js"></script>
+    <script src="./assets/auto-render.min.js"></script>
+    <script type="text/javascript">
+      var options = {ratio:'14:9'};
+      var renderMath = function() {
+        renderMathInElement(document.body);
+        // or if you want to use $...$ for math,
+        renderMathInElement(document.body, {delimiters: [ // mind the order of delimiters(!?)
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false},
+            {left: "\\[", right: "\\]", display: true},
+            {left: "\\(", right: "\\)", display: false},
+        ]});
+      }
+      var slideshow = remark.create(options, renderMath);
+    
+    </script>
+  </body>
+</html>
